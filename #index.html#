@@ -16,7 +16,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     
-    <!-- Custom Theme CSS -->
+œô§©    <!-- Custom Theme CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
 </head>
@@ -97,7 +97,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Me</h2>
-                <p>If you have any questions please feel free to contact me. I'm currently working at Target as a Software Engineer Intern for the Summer of 2015. Feel free to contact me for future full time opportunities. I'm specifically looking to work with iOS development and design.</p>
+                <p>If you have any questions please feel free to contact me. I'm currently working at Target as a Software Engineer Intern for the Summer of 2015. Feel free to contact me for future full time opportunities. I'm specifically looking to work with front end devlopment with a focus on UI/UX design.</p>
                 <p>samwang@cs.utexas.edu            (915) 667-3225</p>
 
                 <ul class="list-inline banner-social-buttons">
