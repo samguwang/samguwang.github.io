@@ -30,6 +30,7 @@ p {
 p.large {
   font-size: 17px;
 }
+
 a,
 a:hover,
 a:focus,
@@ -164,6 +165,14 @@ fieldset[disabled] .btn-xl.active {
   color: #ff4d4d;
   background-color: #ffffff;
 }
+
+.contactInfo {
+    padding-top: 25px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    
+}
+
 .navbar-default {
   background-color: #222222;
   border-color: transparent;
@@ -607,6 +616,7 @@ section h3.section-subheading {
 .samsInfo p {
   margin-top: 0;
 }
+
 aside.clients img {
   margin: 50px auto;
 }
@@ -614,6 +624,11 @@ section#contact {
   background-color: rgba(21, 21, 21, 0.9);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+section#contact p {
+  color: white;
+
 }
 section#contact .section-heading {
   color: white;
@@ -635,6 +650,10 @@ section#contact .form-control:focus {
   border-color: #ff4d4d;
   box-shadow: none;
 }
+
+
+
+
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -669,12 +688,14 @@ section#contact .text-danger {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: rgba(51, 51, 51, 0.9);
 }
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  color: white;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -688,13 +709,13 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: white;
   height: 40px;
   width: 40px;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
-  color: white;
+  color: rgba(51, 51, 51, 0.9);
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -721,6 +742,8 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
 }
+
+
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
