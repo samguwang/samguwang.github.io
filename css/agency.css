@@ -1,8 +1,4 @@
-/*!
- * Agency v1.0.7 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 
 body {
   overflow-x: hidden;
@@ -394,6 +390,7 @@ section h3.section-subheading {
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
+
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
@@ -484,7 +481,7 @@ section h3.section-subheading {
   background-color: #cccccc;
   color: white;
   border-radius: 100%;
-  
+
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -741,6 +738,7 @@ ul.social-buttons li a:active {
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+  background-color: #f5f5f5;
 }
 
 
@@ -748,22 +746,34 @@ ul.social-buttons li a:active {
   margin-bottom: 15px;
   font-size: 3em;
 }
+
+.portfolio-modal .modal-content h3 {
+  font-size: 16px;
+  text-align: left;
+  padding-top: 20px;
+}
+
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
+  text-align: left;
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-size: 16px;
+  text-align: center;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-  width: 40%;
+  margin-bottom: 40px;
+  width: 60%;
+  display: block;
+  margin: 40px auto;
+  box-shadow: 10px 10px 5px #cccccc;
 }
 .portfolio-modal .close-modal {
   position: absolute;
